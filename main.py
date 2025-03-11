@@ -157,8 +157,9 @@ if st.button("🔍 건강 분석 실행"):
                 "<small>- ✅ **추천 치료 방법**: 처방 약물(바레니클린 + 부프로피온 병합 요법) + 전문 상담</small><br>\n"
                 "<small>- 📌 강력한 약물 요법이 필요하며, 병합 치료를 고려하세요.</small><br>\n"
                 "<small>- 🚭 금연 클리닉에 등록하고, 집중적인 관리 프로그램에 참여하세요.</small>"
-            )    st.write("## 🚭 금연 치료 방법 추천")
-    recommend_treatment(patient_data['smoking_prob_0'].iloc[0]*100)
+            )    
+        st.write("## 🚭 금연 치료 방법 추천")
+        recommend_treatment(patient_data['smoking_prob_0'].iloc[0]*100)
 
 
 

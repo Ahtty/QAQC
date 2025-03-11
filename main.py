@@ -126,39 +126,38 @@ if st.button("🔍 건강 분석 실행"):
         if probability >= 90:
             return (
                 "### 🟢 매우 강한 의지 (90~100%)\n"
-                "<small>- ✅ **추천 치료 방법**: 행동 요법, 금연 앱 활용</small>\n"
-                "<small>- 📌 **금연 상담(1:1 또는 그룹)**을 받고, 금연 앱(Smoke Free, QuitNow!)을 활용하세요.</small>\n"
-                "<small>- 🚭 흡연 유발 환경을 피하고, 자기 동기 강화 기법을 사용하세요.</small>", unsafe_allow_html=True
+                "<small>- ✅ **추천 치료 방법**: 행동 요법, 금연 앱 활용</small><br>\n"
+                "<small>- 📌 **금연 상담(1:1 또는 그룹)**을 받고, 금연 앱(Smoke Free, QuitNow!)을 활용하세요.</small><br>\n"
+                "<small>- 🚭 흡연 유발 환경을 피하고, 자기 동기 강화 기법을 사용하세요.</small>"
             )
         elif probability >= 70:
             return (
                 "### 🟡 강한 의지 (70~89%)\n"
-                "<small>- ✅ **추천 치료 방법**: 행동 요법 + 니코틴 대체 요법(NRT)</small>\n"
-                "<small>- 📌 니코틴 패치, 껌, 사탕을 사용하고 금연 상담을 병행하면 효과가 증가합니다.</small>\n"
-                "<small>- 🚭 스트레스 대처법을 학습하고, 금연 보상 시스템을 활용하세요.</small>", unsafe_allow_html=True
+                "<small>- ✅ **추천 치료 방법**: 행동 요법 + 니코틴 대체 요법(NRT)</small><br>\n"
+                "<small>- 📌 니코틴 패치, 껌, 사탕을 사용하고 금연 상담을 병행하면 효과가 증가합니다.</small><br>\n"
+                "<small>- 🚭 스트레스 대처법을 학습하고, 금연 보상 시스템을 활용하세요.</small>"
             )
         elif probability >= 50:
             return (
                 "### 🟠 보통 의지 (50~69%)\n"
-                "<small>- ✅ **추천 치료 방법**: 니코틴 대체 요법(NRT) + 행동 요법 + 금연 상담</small>\n"
-                "<small>- 📌 니코틴 패치와 껌을 병행하며, 금연 상담을 통해 동기 부여를 강화하세요.</small>\n"
-                "<small>- 🚭 필요 시 부프로피온(웰부트린) 같은 약물을 고려할 수 있습니다.</small>", unsafe_allow_html=True
+                "<small>- ✅ **추천 치료 방법**: 니코틴 대체 요법(NRT) + 행동 요법 + 금연 상담</small><br>\n"
+                "<small>- 📌 니코틴 패치와 껌을 병행하며, 금연 상담을 통해 동기 부여를 강화하세요.</small><br>\n"
+                "<small>- 🚭 필요 시 부프로피온(웰부트린) 같은 약물을 고려할 수 있습니다.</small>"
             )
         elif probability >= 30:
             return (
                 "### 🔴 약한 의지 (30~49%)\n"
-                "<small>- ✅ **추천 치료 방법**: 처방 약물(바레니클린, 부프로피온) + 행동 요법</small>\n"
-                "<small>- 📌 바레니클린(챔픽스), 부프로피온(웰부트린) 같은 약물을 복용하며 금연 상담을 받으세요.</small>\n"
-                "<small>- 🚭 니코틴 패치와 껌을 병행하면 효과가 더욱 증가합니다.</small>", unsafe_allow_html=True
+                "<small>- ✅ **추천 치료 방법**: 처방 약물(바레니클린, 부프로피온) + 행동 요법</small><br>\n"
+                "<small>- 📌 바레니클린(챔픽스), 부프로피온(웰부트린) 같은 약물을 복용하며 금연 상담을 받으세요.</small><br>\n"
+                "<small>- 🚭 니코틴 패치와 껌을 병행하면 효과가 더욱 증가합니다.</small>"
             )
         else:
             return (
                 "### ⚫ 매우 약한 의지 (0~29%)\n"
-                "<small>- ✅ **추천 치료 방법**: 처방 약물(바레니클린 + 부프로피온 병합 요법) + 전문 상담</small>\n"
-                "<small>- 📌 강력한 약물 요법이 필요하며, 병합 치료를 고려하세요.</small>\n"
-                "<small>- 🚭 금연 클리닉에 등록하고, 집중적인 관리 프로그램에 참여하세요.</small>", unsafe_allow_html=True
-            )
-    st.write("## 🚭 금연 치료 방법 추천")
+                "<small>- ✅ **추천 치료 방법**: 처방 약물(바레니클린 + 부프로피온 병합 요법) + 전문 상담</small><br>\n"
+                "<small>- 📌 강력한 약물 요법이 필요하며, 병합 치료를 고려하세요.</small><br>\n"
+                "<small>- 🚭 금연 클리닉에 등록하고, 집중적인 관리 프로그램에 참여하세요.</small>"
+            )    st.write("## 🚭 금연 치료 방법 추천")
     recommend_treatment(patient_data['smoking_prob_0'].iloc[0]*100)
 
 

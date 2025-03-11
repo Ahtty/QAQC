@@ -1,0 +1,24 @@
+catboost @ file:///Users/runner/miniforge3/conda-bld/catboost_1738176323242/work/catboost/python-package/dist/catboost-1.2.7-cp39-cp39-macosx_11_0_arm64.whl#sha256=675388cb4a0944f966f19fa8ee05f10ab0bb8bf3d0a94dd9f3f360968fc1e459
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1739515848642/work/certifi
+contourpy @ file:///Users/runner/miniforge3/conda-bld/contourpy_1729602398863/work
+cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1733332471406/work
+fonttools @ file:///Users/runner/miniforge3/conda-bld/fonttools_1738940323940/work
+graphviz @ file:///home/conda/feedstock_root/build_artifacts/python-graphviz_1733791968395/work
+importlib_resources @ file:///home/conda/feedstock_root/build_artifacts/importlib_resources_1736252299705/work
+kiwisolver @ file:///Users/runner/miniforge3/conda-bld/kiwisolver_1725459226886/work
+matplotlib==3.9.4
+munkres==1.1.4
+narwhals @ file:///home/conda/feedstock_root/build_artifacts/narwhals_1741280500336/work
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1707225689808/work/dist/numpy-1.26.4-cp39-cp39-macosx_11_0_arm64.whl#sha256=989042d872faf31c0434bd99fec5ec09b5c5d9a0b8125edd0ae869c5d8851048
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
+pandas @ file:///Users/runner/miniforge3/conda-bld/pandas_1726878429351/work
+pillow @ file:///Users/runner/miniforge3/conda-bld/pillow_1735929738355/work
+plotly @ file:///home/conda/feedstock_root/build_artifacts/plotly_1738287743623/work
+pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1735698276679/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy-split_1716470312029/work/dist/scipy-1.13.1-cp39-cp39-macosx_11_0_arm64.whl#sha256=95cc9a6aceed50037865da4a45baac05fd0dcee7e557c6149fde270f2ffebafc
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1737541069190/work
+unicodedata2 @ file:///Users/runner/miniforge3/conda-bld/unicodedata2_1736692557404/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work

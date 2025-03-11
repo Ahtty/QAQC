@@ -108,7 +108,7 @@ if st.button("🔍 건강 분석 실행"):
     st.subheader('예측 결과 확인')
 
     # 저장된 모델 불러오기 (CatBoost)
-    with open('/Users/hyogyong/Documents/streamlit/catboost_model(final).pkl', 'rb') as f:
+    with open('files/catboost_model(final).pkl', 'rb') as f:
         model = pickle.load(f)
     # 사용자가 입력한 값으로 예측
     prediction = model.predict(patient_data)

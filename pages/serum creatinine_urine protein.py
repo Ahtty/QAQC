@@ -56,15 +56,15 @@ def main():
     # 🚨 **건강 안내 메시지 출력**
     warnings = []
 
-    if patient_data["serum creatinine"] < 44:
+    if patient_data["serum creatinine"].iloc[0] < 44:
         warnings.append("🚨 혈청 크레아티닌이 너무 낮습니다. 근육량 감소 또는 신장 문제 가능성이 있습니다.")
-    elif patient_data["serum creatinine"] > 106:
+    elif patient_data["serum creatinine"].iloc[0] > 106:
         warnings.append("🚨 혈청 크레아티닌이 정상 범위를 초과했습니다. 신장 기능 검사가 필요할 수 있습니다.")
 
-    if patient_data["Urine protein"] not in [1, 2]:
+    if patient_data["Urine protein"].iloc[0] not in [1, 2]:
         warnings.append("🚨 요단백 수치가 비정상적입니다. 단백뇨 또는 신장 질환 가능성이 있습니다.")
 
-    if patient_data["fasting blood sugar"] > 126:
+    if patient_data["fasting blood sugar"].iloc[0] > 126:
         warnings.append("🚨 공복 혈당이 높습니다. 당뇨 가능성을 고려해 보세요.")
 
     if warnings:
